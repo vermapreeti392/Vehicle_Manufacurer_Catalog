@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;    
+}
+.input-div{
+    display: flex;
+    justify-content: space-between;
+}
+.head-table{
+    background-color: rgb(17, 17, 68);
+    color: #fff;
+}
+.detail-M{
+    position: absolute;  
+    background-color: #d3d3d3ba;   
+   height: 100%;
+   width: 100%;   
+}
+
+.detail-M div{
+    position: absolute;
+    background-color: #fff;
+    height: 35%;
+    width: 30%;
+    top: 32%;
+    left: 35%;
+}
+.m-h1{
+    position: absolute;
+    bottom: 120px;
+    left: 280px;
+}
